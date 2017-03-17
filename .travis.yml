@@ -22,7 +22,9 @@ install:
 
 script: 
   # C++
-  - ./build_cpp.sh
+  - qmake
+  - make 
+  - ./domagic # Should show nothing and return with zero
   # R wants all non-R files gone...
   - ./clean.sh
   - rm .gitignore
