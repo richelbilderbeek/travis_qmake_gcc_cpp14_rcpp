@@ -6,6 +6,8 @@
 
 This build fails due to R its (current) lack of support of C++14.
 
+![Error given by Travis CI](TravisCiError.png)
+
 This GitHub is part of 
  * [the Travis C++ Tutorial](https://github.com/richelbilderbeek/travis_cpp_tutorial)
  * [the Travis R Tutorial](https://github.com/richelbilderbeek/travis_r_tutorial)
