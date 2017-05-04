@@ -8,9 +8,9 @@
 // find . | egrep "Rcpp\.h"
 //
 // and add the path to the INCLUDEPATH
-#include <Rcpp.h>
+//#include <Rcpp.h>
 
-using namespace Rcpp;
+//using namespace Rcpp;
 
 //' Does magic
 //' @param x Input
