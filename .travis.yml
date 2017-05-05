@@ -32,6 +32,8 @@ script:
   - rm .travis.yml
   - rm -rf .git
   - rm -rf ..Rcheck
+  - rm *.o
+  - rm domagic
   # Now R is ready to go
   - R CMD check .
 
