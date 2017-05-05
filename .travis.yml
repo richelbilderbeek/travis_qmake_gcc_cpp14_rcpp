@@ -27,7 +27,6 @@ script:
   - make 
   - ./domagic # Should show nothing and return with zero
   # R wants all non-R files gone...
-  - ./clean.sh
   - rm .gitignore
   - rm src/.gitignore
   - rm .travis.yml
