@@ -1,12 +1,12 @@
 # travis_qmake_gcc_cpp14_rcpp
 
-[![Travis CI logo](TravisCI.png)](https://travis-ci.org)
+[![Travis CI logo](pics/TravisCI.png)](https://travis-ci.org)
 
 [![Build Status](https://travis-ci.org/richelbilderbeek/travis_qmake_gcc_cpp14_rcpp.svg?branch=master)](https://travis-ci.org/richelbilderbeek/travis_qmake_gcc_cpp14_rcpp)
 
 This build fails due to R its (current) lack of support of C++14.
 
-![Error given by Travis CI](TravisCiError.png)
+![Error given by Travis CI](pics/TravisCiError.png)
 
 This GitHub is part of 
 
