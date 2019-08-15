@@ -4,16 +4,11 @@ compiler: gcc
 
 install: 
   - sudo apt update -qq
-  # Boost
-  - sudo apt install -qq libboost-all-dev
   # R
   - sudo add-apt-repository -y ppa:marutter/rrutter # R
   - sudo apt-get update -qq
 
 install: 
-  # C++14
-  - sudo apt-get install -qq g++-5
-  - sudo update-alternatives --install /usr/bin/g++ g++ /usr/bin/g++-5 90
   # R
   - sudo apt-get install -qq r-base r-base-dev
   # R devtools
@@ -26,7 +21,7 @@ install:
 script: 
   # C++
   - qmake
-  - make 
+  - make --silent
   - ./domagic # Should show nothing and return with zero
   # R wants all non-R files gone...
   - rm .gitignore
